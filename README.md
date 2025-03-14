@@ -6,7 +6,7 @@ Modificated armbian for MKS SKIPR-MINI v1.0 based 3d-printers Flying Bear S1 / I
 - Download an armbian-mkspi image. Now worked with 1.0.2-25.2.1 bookworm_current_6.12.12 (https://github.com/redrathnure/armbian-mkspi/releases/tag/mkspi%2F1.0.2-25.2.1).
 - Burn an armbian-mkspi image to EMMC whith dd/balena-Etcher etc..
 - Mount EMMC boot and root partitions.
-- Add to `/boot/armbianEnv.txt` next strings:
+- Add to `/boot/armbianEnv.txt` next strings (like in this repo https://github.com/MidnightRAT/armbian-SKIPR-MINI/blob/main/BOOT/armbianEnv.txt):
 
 >`overlays=rk3328-i2c0 rk3328-i2s1-pcm5102 rk3328-mksklipad50-enable-rtc-end1 rk3328-mkspi-disable-lcd-spi rk3328-opp-1.4ghz rk3328-spi-spidev rk3328-uart1`
 
