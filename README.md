@@ -12,7 +12,8 @@ Modificated armbian for MKS SKIPR-MINI v1.0 based 3d-printers Flying Bear S1 / I
 
 >`usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u`
 
-- Replace file `/boot/dtb/rockchip/rk3328-mkspi.dtb` on EMMC with file from this repo.
+- Replace file `/boot/dtb/rockchip/rk3328-mkspi.dtb` on EMMC with file from this repo (https://github.com/MidnightRAT/armbian-SKIPR-MINI/blob/main/BOOT/dtb/rockchip/rk3328-mkspi.dtb).
+- Sync and detach EMMC.
 
 ### First start and upgrade armbian
 - Install EMMC on printer SKIPR-MINI v1.0 board.
