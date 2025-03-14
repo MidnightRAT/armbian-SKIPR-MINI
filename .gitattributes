@@ -1,0 +1,1 @@
+BOOT/dtb/rockchip/rk3328-mkspi.dtb filter=lfs diff=lfs merge=lfs -text

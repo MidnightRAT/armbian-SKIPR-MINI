@@ -1,0 +1,8 @@
+verbosity=1
+bootlogo=false
+console=both
+overlay_prefix=rockchip
+rootdev=UUID=6abf7a62-138d-471a-ae22-89f3a9a6ec87
+rootfstype=ext4
+overlays=rk3328-i2c0 rk3328-i2s1-pcm5102 rk3328-mksklipad50-enable-rtc-end1 rk3328-mkspi-disable-lcd-spi rk3328-opp-1.4ghz rk3328-spi-spidev rk3328-uart1
+usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
