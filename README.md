@@ -22,6 +22,9 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 ```
 home
 └── mks
+    ├── gcode_files -> printer_data/gcodes
+    ├── klipper_config -> printer_data/config
+    ├── klipper_logs -> printer_data/logs
     └── printer_data
         ├── config
         │   └── plr.cfg
