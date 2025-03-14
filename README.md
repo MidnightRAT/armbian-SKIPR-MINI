@@ -18,3 +18,13 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 - Install EMMC on printer SKIPR-MINI v1.0 board.
 - Connect to ethernet and power on the printer. Your printer must acquire an IP address using DHCP.
 - Login to printer via SSH with user: root passwd: 1234
+
+```
+home
+└── mks
+    └── printer_data
+        ├── config
+        │   └── plr.cfg
+        ├── gcodes
+        └── logs
+```
